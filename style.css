@@ -10,7 +10,7 @@ html, body {
 .intro {
     height: 100%;
     width: 100%;
-    background: url("https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg");
+    background: url("");
     display: table;
     top: 0;
     background-size: cover;
@@ -33,6 +33,22 @@ html, body {
     font-weight: 100;
     color: #e1efe9;
     line-height: 70%;
+}
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 135%;
+    font-weight: 400;
+    color: #3a6168;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid #3a6168;
+    padding: 10px 20px;
+    border-radius: 9px;
+    transition: all 0.5s;
+}
+.btn:hover {
+    color: #cbdfd6;
+    border: solid #cbdfd6 2px;
 }
 
 /*--- Media Queries --*/
