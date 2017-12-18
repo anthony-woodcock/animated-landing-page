@@ -21,6 +21,19 @@ html, body {
     width: 100%;
     max-width: none;
 }
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 28%;
+}
+.content h1 {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 600%;
+    font-weight: 100;
+    color: #e1efe9;
+    line-height: 70%;
+}
 
 /*--- Media Queries --*/
 @media screen and (max-width: 900px) {
