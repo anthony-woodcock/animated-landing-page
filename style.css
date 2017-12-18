@@ -10,7 +10,7 @@ html, body {
 .intro {
     height: 100%;
     width: 100%;
-    background: url("");
+    background: url("https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg") no-repeat 50% 50%;
     display: table;
     top: 0;
     background-size: cover;
@@ -31,17 +31,18 @@ html, body {
     font-family: 'Yantramanav', sans-serif;
     font-size: 600%;
     font-weight: 100;
-    color: #e1efe9;
+    color: white;
     line-height: 70%;
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
 }
 .btn {
     font-family: 'Montserrat', sans-serif;
     font-size: 135%;
     font-weight: 400;
-    color: #3a6168;
+    color: #d0e2e5;
     text-transform: uppercase;
     text-decoration: none;
-    border: solid #3a6168;
+    border: solid #d0e2e5;
     padding: 10px 20px;
     border-radius: 9px;
     transition: all 0.5s;
@@ -50,14 +51,54 @@ html, body {
     color: #cbdfd6;
     border: solid #cbdfd6 2px;
 }
+p {
+    font-size: 150%;
+    line-height: 120%;
+    font-family: sans-serif;
+}
 
 /*--- Media Queries --*/
 @media screen and (max-width: 900px) {
-
+    .content {
+        padding-bottom: 30%;
+    }
+    .content h1 {
+        font-size: 450%;
+    }
+    .btn {
+        font-size: 130%;
+        padding: 9px 17px;
+    }
 }
 @media screen and (max-width: 768px) {
-
+    .content {
+        padding-bottom: 40%;
+    }
+    .content h1 {
+        font-size: 300%;
+    }
+    .btn {
+        font-size: 110%;
+        padding: 7px 15px;
+    }
+    p {
+        font-size: 120%;
+        line-height: 100%;
+    }
 }
 @media screen and (max-width: 480px) {
-	
+    .content {
+        padding-bottom: 50%;
+    }
+    .content h1 {
+        font-size: 250%;
+    }
+    .btn {
+        font-size: 100%;
+        padding: 6px 14px;
+    }
+    p {
+        font-size: 120%;
+        line-height: 100%;
+    }
 }
